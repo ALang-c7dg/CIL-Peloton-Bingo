@@ -4,7 +4,8 @@ const element = document.getElementById('displayCard');
 
 // element.addEventListener("click", displayCard);
 
-element.addEventListener("click", function(){
+// element.addEventListener("click", 
+function(){
 
 // function displayCard() {
 
