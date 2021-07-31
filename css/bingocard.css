@@ -73,3 +73,7 @@ li {
 .hideCard {
 	display: none;
 }
+
+.pattern{
+	background-color:lightgray
+}
