@@ -22,6 +22,7 @@ document.getElementById('generateCard').addEventListener('click', () => {
 
 	}
 
-	welcomeSection.classList.replace("showWelcome" , "hideWelcome");
+	welcomeSection.classList.replace("show" , "hide");
+	document.getElementById("topBar").classList.replace("show", "hide");
 	bingoCard.classList.remove("hideCard", "showCard");
 });
