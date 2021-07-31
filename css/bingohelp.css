@@ -1,0 +1,30 @@
+#help  {
+    background-color: rgba(180, 238, 187, 0.884);
+    background-size: cover;
+    padding: 1em;
+}
+
+.guidelines div {
+    padding: 1em;
+    margin: 1em; 
+}
+
+.guidelines li {
+    padding: 1em;
+    font-size: medium;
+}
+span {
+    font-weight: bold;
+}
+
+.notation {
+    border-top:inset;
+    border-color: black;
+}
+.notation h2 {
+    font-size: medium;
+}
+.notation li {
+    font-size: small;
+    padding: 2px;
+}
