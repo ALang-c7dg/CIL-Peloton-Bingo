@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
-		<link rel="stylesheet" type="text/css" href="css/welcome.css">
 		<link rel="stylesheet" type="text/css" href="css/bingocard.css">
+		<link rel="stylesheet" type="text/css" href="css/welcome.css">
 		<script type="module" src="script/card.js"></script>
 		<meta charset="utf-8">
 		<meta name="description" content="Bingo card">
@@ -10,20 +10,19 @@
 	</head>
 
 	<body>	
-		<section>
-			<section class="welcome"> 
-				<div class="welcomeContainer">
-					<div class="welcomeText">
+		<section id="welcome" class="showWelcome"> 
+			<div class="welcomeContainer">
+				<div class="welcomeText">
 					<h1>
 						Welcome to the Central Illinois Bingo Card Generator!
 					</h1>
-					<button>Generate Card</button>
-					</div>
-
+					<button id="generateCard">Generate Card</button>
 				</div>
 
+			</div>
+		</section>
 
-			</section>
+		<section id="bingoCard" class="hideCard">
 			<div class="flexContainer">
 				<div id="filler">	
 				</div>
@@ -36,57 +35,56 @@
 						<li>O</li>
 					</ul>
 				</div>
-				<div class="pelotonHeading">
-					<ul>
-						<li>P</li>
-						<li>E</li>
-						<li>L</li>
-						<li>O</li>
-						<li>T</li>
-						<li>O</li>
-						<li>N</li>
-
-					</ul>
-				</div>
-				<div class="squares">			
-					<ul>
-						<li class="classSquare">1</li>
-						<li class="classSquare">2sfasdfsdfdsfasdfasdfdasfsffdfdssdffasdfasdsfafdsfsdfasdf</li>
-						<li class="classSquare">3 fdsfsf</li>
-						<li class="classSquare">4</li>
-						<li class="classSquare">5</li>
-						<li class="classSquare">6</li>
-						<li class="classSquare">7</li>
-						<li class="classSquare">8</li>
-						<li class="classSquare">9</li>
-						<li class="classSquare">10</li>		
-						<li class="classSquare">11</li>
-						<li class="classSquare">12</li>
-						<li class="classSquare">13</li>
-						<li class="classSquare">14</li>
-						<li class="classSquare">15</li>
-						<li class="classSquare">16</li>
-						<li class="classSquare">17</li>
-						<li class="classSquare">18</li>
-						<li class="classSquare">19</li>
-						<li class="classSquare">20</li>
-						<li class="classSquare">21</li>
-						<li class="classSquare">22</li>	
-						<li class="classSquare">23</li>
-						<li class="classSquare">24</li>
-						<li class="classSquare">25</li>
-						<li class="classSquare">26</li>
-						<li class="classSquare">27</li>
-						<li class="classSquare">28</li>
-						<li class="classSquare">29</li>
-						<li class="classSquare">30</li>
-						<li class="classSquare">31</li>
-						<li class="classSquare">32</li>	
-						<li class="classSquare">33</li>
-						<li class="classSquare">34</li>
-						<li class="classSquare">35</li>			
-					</ul>
-				</div>
+			<div class="pelotonHeading">
+				<ul>
+					<li>P</li>
+					<li>E</li>
+					<li>L</li>
+					<li>O</li>
+					<li>T</li>
+					<li>O</li>
+					<li>N</li>
+				</ul>
+			</div>
+			<div id="squares">			
+				<ul id=squaresList>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+		
+				</ul>
 			</div>
 		</section>	
 	</body>	

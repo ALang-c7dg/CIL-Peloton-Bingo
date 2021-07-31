@@ -15,10 +15,9 @@ li {
 }
 
 .flexContainer {
-	display:flex;
+	display: flex;
 	flex-wrap: wrap;
 	text-align: center;
-	display:none;
 }
 
 #filler {
@@ -53,11 +52,11 @@ li {
 	margin-top: 2%;
 }
 
-.squares {
+#squares {
 	width: 92%;
 }
 
-.squares li {
+#squares li {
 	float: left;
 	border-style:ridge;
 	border-color:black;
@@ -65,4 +64,12 @@ li {
 	padding-top: 1em;
 	height: 80px;
 	overflow-wrap: break-word;
+}
+
+.showCard {
+	display: flex;
+}
+
+.hideCard {
+	display: none;
 }

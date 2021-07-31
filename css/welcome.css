@@ -1,4 +1,4 @@
-.welcome  {
+#welcome  {
     background-image: url('../images/cil-map.jpg');
     opacity: .75;
     background-repeat: no-repeat;
@@ -10,7 +10,7 @@
     height: 10em;
     justify-content: center;
     padding-top: 5%;
-    padding-bottom: 40%;
+    padding-bottom: 90%;
     font-size:x-large;
     font-weight:bolder;
 }
@@ -24,4 +24,12 @@
 button {
     padding: 2%;
     margin-left: 45%;
+}
+
+.showWelcome {
+    display:block;
+}
+
+.hideWelcome {
+    display: none;
 }
