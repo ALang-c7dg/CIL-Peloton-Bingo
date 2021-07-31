@@ -93,31 +93,31 @@ var peloClassPool =
 		},
 //**********45 Minutes		
 		{
-			peloClass : "Cycle/Run: 45 min- Jess K/ Matt -- Christian V",
+			peloClass : "Cycle/Run: 45 min- Jess K/Matt -- Christian V",
 			inUse : false
 		},
 				{
-			peloClass : "Cycle/Run: 45 min- Olivia/ Robin -- German Instructor",
+			peloClass : "Cycle/Run: 45 min- Olivia/Robin -- German Instructor",
 			inUse : false
 		},
 		{
-			peloClass : "Cycle/Run: 45 min- Alex/ Sam/ Hannah C -- Adrian/ Jess S",
+			peloClass : "Cycle/Run: 45 min- Alex/Sam/Hannah C -- Adrian/Jess S",
 			inUse : false
 		},
 		{
-			peloClass : "Cycle/Run: 45 min- Ally/ Denis/ Kendall -- Andy/ Rebecca",
+			peloClass : "Cycle/Run: 45 min- Ally/Denis/Kendall -- Andy/Rebecca",
 			inUse : false
 		},
 		{
-			peloClass : "Cycle/Run: 45 min- Ben/ Emma/ Cody -- Becs/ Matty",
+			peloClass : "Cycle/Run: 45 min- Ben/Emma/Cody -- Becs/Matty",
 			inUse : false
 		},
 		{
-			peloClass : "Cycle/Run: 45 min- Bradley/ Christine/ Leanne -- Chase/ Selena",
+			peloClass : "Cycle/Run: 45 min- Bradley/Christine/Leanne -- Chase/Selena",
 			inUse : false
 		},
 				{
-			peloClass : "Cycle/Run: 45 min- Jenn / Hannah F / Tunde -- Adrian/ Selena",
+			peloClass : "Cycle/Run: 45 min- Jenn/Hannah F/Tunde -- Adrian/ Selena",
 			inUse : false
 		},
 //***** Other 
@@ -130,7 +130,7 @@ var peloClassPool =
 			inUse : false
 		},
 		{
-			peloClass : "Cycle/Run: Live DJ/Wildcard - any duration / instructor ",
+			peloClass : "Cycle/Run: Live DJ - any duration / instructor ",
 			inUse : false
 		},
 
@@ -162,7 +162,15 @@ var peloClassPool =
 			inUse : false
 		},
 		{
+			peloClass : "Yoga: 5/10 min-Mariana",
+			inUse : false
+		},
+		{
 			peloClass : "Yoga: 5/10 min-Ross",
+			inUse : false
+		},
+		{
+			peloClass : "Yoga: 10 min - Community Kick Off",
 			inUse : false
 		},
 //************* 20/30 Minutes
@@ -191,37 +199,49 @@ var peloClassPool =
 			inUse : false
 		},
 		{
+			peloClass : "Yoga: 20/30 min-Mariana",
+			inUse : false
+		},
+		{
 			peloClass : "Yoga: 20/30 min-Ross",
 			inUse : false
 		},
 // Strength classes
 		{
-			peloClass : "Strength: 2x10 min- Adrian/ Ben/ Emma/ J King/ Olivia/ Tunde",
+			peloClass : "Strength: 2x10 min- Adrian/Ben/Emma/J King/Olivia/Tunde",
 			inUse : false
 		},
 		{
-			peloClass : "Strength: 2x10 min- Alex/ Chase/ Hannah C/ Kendall/ Rebecca",
+			peloClass : "Strength: 2x10 min- Alex/Chase/Hannah C/Kendall/Rebecca",
 			inUse : false
 		},		
 		{
-			peloClass : "Strength: 2x10 min- Ally/ Christine/ Hannah F/ Leanne/ Robin",
+			peloClass : "Strength: 2x10 min- Ally/Christine/Hannah F/Leanne/Robin",
 			inUse : false
 		},		
 		{
-			peloClass : "Strength: 2x10 min- Andy/ Cody/ Jenn/ Olivia/ Matt/ Sam",
+			peloClass : "Strength: 2x10 min- Andy/Cody/Jenn/Olivia/Matt/Sam",
 			inUse : false
 		},		
 		{
-			peloClass : "Strength: 2x10 min- Becs/ Denis/ J Sims/ Matty/ Selena",
+			peloClass : "Strength: 2x10 min- Becs/Denis/J Sims/Matty/Selena",
 			inUse : false
 		},
-// Strength classes -- Barre, Pilates	
+		{
+			peloClass : "Strength: 2x10 min- Callie/Rad",
+			inUse : false
+		},
+// Strength classes -- Barre, Pilates, Resistance Bands	
 		{
 			peloClass : "Strength: 10/15 min-Barre",
 			inUse : false
 		},
 		{
 			peloClass : "Strength: 10/15 min-Pilates",
+			inUse : false
+		},	
+		{
+			peloClass : "Strength: 10/15 min-Resistance Bands",
 			inUse : false
 		},		
 		
@@ -243,6 +263,10 @@ var peloClassPool =
 			peloClass : "Meditation: 5/10 min-Cody",
 			inUse : false
 		},
+		{	
+			peloClass : "Meditation: 5/10 min-Dennis",
+			inUse : false
+		},	
 		{	
 			peloClass : "Meditation: 5/10 min-Kristin",
 			inUse : false
@@ -287,6 +311,10 @@ var peloClassPool =
 			inUse : false
 		},
 		{
+			peloClass : "Stretch: 10 min-Ben",
+			inUse : false
+		},
+		{
 			peloClass : "Stretch: 10 min-Chase",
 			inUse : false
 		},
@@ -315,12 +343,19 @@ var peloClassPool =
 			inUse : false
 		},
 		{
+			peloClass : "Stretch: 10 min-Robin",
+			inUse : false
+		},
+		{
 			peloClass : "Stretch: 10 min-Selena",
 			inUse : false
 		},		
 
 // Outdoor Classes
-
+		{
+			peloClass : "Outdoor: 20 min-Adrian",
+			inUse : false
+		},
 		{
 			peloClass : "Outdoor: 20 min-Andy",
 			inUse : false
@@ -330,9 +365,29 @@ var peloClassPool =
 			inUse : false
 		},	
 		{
+			peloClass : "Outdoor: 20 min-Chase",
+			inUse : false
+		},
+		{
+			peloClass : "Outdoor: 20 min-Jess Sims",
+			inUse : false
+		},
+		{
+			peloClass : "Outdoor: 20 min-Jess King",
+			inUse : false
+		},
+		{
+			peloClass : "Outdoor: 20 min-Matt",
+			inUse : false
+		},
+		{
 			peloClass : "Outdoor: 20 min-Matty",
 			inUse : false
 		},	
+		{
+			peloClass : "Outdoor: 20 min-Olivia",
+			inUse : false
+		},
 		{
 			peloClass : "Outdoor: 20 min-Rebecca",
 			inUse : false
@@ -342,27 +397,14 @@ var peloClassPool =
 			inUse : false
 		},
 		{
-			peloClass : "Outdoor: 20 min-Chase",
-			inUse : false
-		},
-				{
-			peloClass : "Outdoor: 20 min-Olivia",
-			inUse : false
-		},
-				{
 			peloClass : "Outdoor: 20 min-Selena",
 			inUse : false
 		},
-		{
-			peloClass : "Outdoor: 20 min-Jess Sims",
-			inUse : false
-		},
-
 // Cardio classes
-		{
-			peloClass : "Cardio: 20 min-Dance Cardio",
-			inUse : false
-		},
+		// {
+		// 	peloClass : "Cardio: 20 min-Dance Cardio",
+		// 	inUse : false
+		// },
 		{
 			peloClass : "Cardio/Cycle/Run: Intervals / HIIT - any duration",
 			inUse : false
@@ -394,21 +436,29 @@ var peloClassPool =
 			peloClass : "Any Artist Series Class",
 			inUse : false
 		},
-		
-// Distance
+// Challenges
 		{
-			peloClass : "In one day -- cycle 21 miles or run/walk 7",
-			inUse : false
-		},
-// Bingo Winner Choices
-		{
-			peloClass : "Any APIHM Class",
+			peloClass : "Complete One Monthly Challenge",
 			inUse : false
 		},	
 		{
-			peloClass : "Any Mix Tape Ride with Jenn / Theme Run",
+			peloClass : "Special Guest Class",
 			inUse : false
- 		},			
+		},	
+// Distance
+		// {
+		// 	peloClass : "In one day -- cycle 21 miles or run/walk 7",
+		// 	inUse : false
+		// },
+// Bingo Winner Choices
+		// {
+		// 	peloClass : "Any APIHM Class",
+		// 	inUse : false
+		// },	
+		// {
+		// 	peloClass : "Any Mix Tape Ride with Jenn / Theme Run",
+		// 	inUse : false
+ 		// },			
 		
 	];
 
