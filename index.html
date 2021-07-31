@@ -1,20 +1,90 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
-		<link rel="stylesheet" type="text/css" href="bingocard.css">
-		<script src="card.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/bingocard.css">
+		<link rel="stylesheet" type="text/css" href="css/welcome.css">
+		<script type="module" src="script/card.js"></script>
 		<meta charset="utf-8">
 		<meta name="description" content="Bingo card">
 		<title>Peloton Bingo</title>
 	</head>
 
-	<body>
-		<script>
-			displayCard();
-		</script>
+	<body>	
+		<section id="welcome" class="showWelcome"> 
+			<div class="welcomeContainer">
+				<div class="welcomeText">
+					<h1>
+						Welcome to the Central Illinois Bingo Card Generator!
+					</h1>
+					<button id="generateCard">Generate Card</button>
+				</div>
 
-		
-		
-	</body>
-	
+			</div>
+		</section>
+
+		<section id="bingoCard" class="hideCard">
+			<div class="flexContainer">
+				<div id="filler">	
+				</div>
+				<div class="bingoHeading">
+					<ul>
+						<li>B</li>
+						<li>I</li>
+						<li>N</li>
+						<li>G</li>
+						<li>O</li>
+					</ul>
+				</div>
+			<div class="pelotonHeading">
+				<ul>
+					<li>P</li>
+					<li>E</li>
+					<li>L</li>
+					<li>O</li>
+					<li>T</li>
+					<li>O</li>
+					<li>N</li>
+				</ul>
+			</div>
+			<div id="squares">			
+				<ul id="squaresList">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</section>	
+	</body>	
 </html>
