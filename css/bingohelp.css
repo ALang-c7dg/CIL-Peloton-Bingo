@@ -24,7 +24,8 @@ span {
 .notation h2 {
     font-size: medium;
 }
-.notation li {
+.notation dt {
     font-size: small;
-    padding: 2px;
+    padding-top: 1em;
+    padding-bottom: 2p;
 }
